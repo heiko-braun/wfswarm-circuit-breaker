@@ -106,7 +106,7 @@ public class OpenshiftIT {
 
     @AfterClass
     public static void teardown() throws Exception {
-        OPENSHIFT.cleanup();
+        //OPENSHIFT.cleanup();
     }
 
     @Test
